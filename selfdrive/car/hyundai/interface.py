@@ -293,7 +293,7 @@ class CarInterface(CarInterfaceBase):
       ret.lateralTuning.indi.timeConstant = 1.0
       ret.lateralTuning.indi.actuatorEffectiveness = 1.5 #1.5
       ret.steerActuatorDelay = 0.08 # Stinger GT Limited AWD 3.3T stock value (Tunder's 2020) 
-      ret.steerLimitTimer = 0.4 # stock is 0.01 but 0.04 seems to work well
+      ret.steerLimitTimer = 0.04 # stock is 0.01 but 0.04 seems to work well
       tire_stiffness_factor = 0.6 # LiveParameters (Tunder's 2020)
       ret.steerRateCost = 1.0
       ret.steerRatio = 13.5
